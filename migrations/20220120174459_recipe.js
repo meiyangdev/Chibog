@@ -6,8 +6,10 @@ exports.up = function(knex) {
       table.string('category')
       table.string('type')
       table.string('instructions')
+      table.string('youtubelink')
       table.string('about')
       table.string('image_food')
+      table.string('origin')
       table.string('image_origin')
   })
 };
