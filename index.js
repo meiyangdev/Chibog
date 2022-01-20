@@ -4,6 +4,6 @@ const server = require('./server')
 const PORT = process.env.PORT || 3000
 
 // Initiate Server to start running!
-server.listen(port, function () {
-    console.log('Listening on port', port)
+server.listen(PORT, function () {
+    console.log('Listening on port', PORT)
 })
