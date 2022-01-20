@@ -2,10 +2,10 @@
 exports.seed = function(knex) {
   // Deletes ALL existing entries
 
-  return knex('ingredients').del()
+  return knex('ingredient').del()
     .then(function () {
       // Inserts seed entries
-      return knex('ingredients').insert([
+      return knex('ingredient').insert([
         {id: 201, name: 'canola oil'},
         {id: 202, name: 'chicken drumsticks'},
         {id: 203, name: 'chicken thighs'},
@@ -30,7 +30,6 @@ exports.seed = function(knex) {
 
         {id: 221, name: 'white rice flour'},
         {id: 222, name: 'oxtails'},
-        {id: 223, name: 'scallion'},
         {id: 224, name: 'bok choy'},
         {id: 225, name: 'chinese eggplant'},
         {id: 226, name: 'string beans'},
@@ -48,4 +47,3 @@ exports.seed = function(knex) {
       ]);
     });
 };
-
