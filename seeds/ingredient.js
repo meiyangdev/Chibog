@@ -37,10 +37,12 @@ exports.seed = function(knex) {
         {id: 228, name: 'peanut butter'},
         {id: 229, name: 'annatto powder'},
         {id: 230, name: 'bagoong'},
-        {id: 231, name: 'white rice'},
+        {id: 231, name: 'roasted, unsalted peanuts'},
+        {id: 232, name: 'fried garlic'},
+        {id: 233, name: 'white rice'},
 
-        {id: 232, name: 'duck egg'},
-        {id: 233, name: 'salt'},
+        {id: 234, name: 'duck egg'},
+        {id: 235, name: 'salt'},
 
       ]);
     });
