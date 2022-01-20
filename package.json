@@ -4,7 +4,10 @@
   "description": "Top Authentic Filipino Recipes",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index",
+    "dev": "nodemon index",
+    "knex": "knex",
+    "test": "jest --watch --noStackTrace"
   },
   "repository": {
     "type": "git",
