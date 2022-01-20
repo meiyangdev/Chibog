@@ -1,0 +1,32 @@
+{
+  "name": "chibog",
+  "version": "1.0.0",
+  "description": "Top Authentic Filipino Recipes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kahu2022/Chibog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kahu2022/Chibog/issues"
+  },
+  "homepage": "https://github.com/kahu2022/Chibog#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "knex": "^0.21.7",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "eslint": "7.12.0",
+    "eslint-config-eda": "0.1.4",
+    "jest": "^26.6.1",
+    "nodemon": "^2.0.6",
+    "supertest": "^5.0.0"
+  }
+}
