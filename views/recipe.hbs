@@ -1,6 +1,9 @@
-<div>
-  <h1 class = 'title'>{{recipe.name}}</h1>
+
+<div class="">
+  <h1 style="color: white; font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;">{{recipe.name}}</h1>
+
 </div>
+<section>
   <div class="container">
     <img class="recipeImg" src="{{recipe.image_food}}">
     <ul>
@@ -8,21 +11,35 @@
       <li>{{recipe.type}}</li>
     </ul>
     <a href="{{recipe.youtubelink}}">Youtube Link</a>
-</div>
-<div>
-  {{ingredientList.amount}} {{ingredientList.name}}
-</div>
-<div>
-  Instructions:
-  {{recipe.instructions}}
-</div>
-<div>
-  {{recipe.about}}
-  <img src="{{recipe.image_origin}}">
-  {{recipe.origin}}
-</div>
+  </div>
+  <div class="container">
+  {{#each ingredientList}}
+      <ul>
+        <li>
+          {{amount}} {{name}}
+        </li>
+      </ul>
+  </div>
+  {{/each}}
+  </div>
+  <div class="container">
+    Instructions:
+    {{recipe.instructions}}
+  </div>
+  <div class="container">
+    {{recipe.about}}
+    <img class="recipeImg" src="{{recipe.image_origin}}">
+    {{recipe.origin}}
+  </div>
+</section>
+  
 
-
-	<a href="https://en.wikipedia.org/wiki/Filipino_cuisine" class="logo" target="_blank">
+<a href="/">
+       <button>Home</button>
+</a>
+<div>
+  <a href="https://en.wikipedia.org/wiki/Filipino_cuisine" class="logo" target="_blank">
 		<img src="/images/philippines_flag1.png" style="width: 16%; height: auto;" alt="NOT HERE">
-	</a>	
+	</a>
+</div>
+		

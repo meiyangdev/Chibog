@@ -18,7 +18,6 @@ function getIngredientList (id, db = database) {
     .select('recipe.id',
     'recipe_ingredient.amount',
     'ingredient.name')
-    
 }
 
 module.exports = {
