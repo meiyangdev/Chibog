@@ -1,6 +1,28 @@
-<p>{{recipe.name}}</p>
+<div>
+  <h1 style="color: white; font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;">{{recipe.name}}</h1>
+</div>
+  <div class="container">
+    <img class="recipeImg" src="{{recipe.image_food}}">
+    <ul>
+      <li>{{recipe.category}}</li>
+      <li>{{recipe.type}}</li>
+    </ul>
+    <a href="{{recipe.youtubelink}}">Youtube Link</a>
+</div>
+<div>
+  {{ingredientList.amount}} {{ingredientList.name}}
+</div>
+<div>
+  Instructions:
+  {{recipe.instructions}}
+</div>
+<div>
+  {{recipe.about}}
+  <img src="{{recipe.image_origin}}">
+  {{recipe.origin}}
+</div>
 
-<p>{{#each ingredientList}}
-  {{name}}
-  {{/each}}
-</p>
+
+	<a href="https://en.wikipedia.org/wiki/Filipino_cuisine" class="logo" target="_blank">
+		<img src="/images/philippines_flag1.png" style="width: 16%; height: auto;" alt="NOT HERE">
+	</a>	
