@@ -10,6 +10,7 @@ body {
 	flex-wrap: wrap;
 	background: #000000;
 	min-height: 100vh;
+	color: #FCD116;
 }
 
 section::before {
@@ -125,7 +126,9 @@ section::after {
 	opacity: 1;
 }
 
-.container .card .sci li a {
-	color: #fff;
-	font-size: 20px;
+.recipeImg {
+	height: 200px;
+	visibility: visible; 
+	opacity: 1;
 }
+
