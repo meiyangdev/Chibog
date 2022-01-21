@@ -4,6 +4,7 @@ exports.up = function(knex) {
       table.increments('id')
       table.integer('recipe_id')
       table.integer('ingredient_id')
+      table.string('amount')
   })
 };
 
