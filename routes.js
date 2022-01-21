@@ -21,6 +21,7 @@ router.get('/recipe/:id', (req, res) => {
             res.render('recipe', {recipe: recipe, ingredientList: ingredientList})
         })
     })
+
 })
 
 module.exports = router
