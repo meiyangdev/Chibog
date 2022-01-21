@@ -126,9 +126,31 @@ section::after {
 	opacity: 1;
 }
 
+
 .recipeImg {
 	height: 200px;
 	visibility: visible; 
 	opacity: 1;
 }
 
+
+.container .card .sci li a {
+	color: #fff;
+	font-size: 20px;
+}
+
+.title {
+	float:center;
+	font-family: 'Dancing Script', cursive;
+	font-size: 80px;
+	margin-bottom: 30px;
+	color: white;
+	padding-left: 400px;
+	padding-right: 50px;
+}
+
+.flag {
+	width: 16%; 
+	height: auto;
+
+}
