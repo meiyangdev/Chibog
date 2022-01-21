@@ -10,7 +10,11 @@
     <a href="{{recipe.youtubelink}}">Youtube Link</a>
 </div>
 <div>
-  {{ingredientList.amount}} {{ingredientList.name}}
+  {{#each ingredientList}}
+    <p>
+      {{amount}} {{name}}
+    </p>
+  {{/each}}
 </div>
 <div>
   Instructions:
