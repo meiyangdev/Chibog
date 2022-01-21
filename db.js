@@ -18,11 +18,23 @@ function getIngredientList (id, db = database) {
     .select('recipe.id',
     'recipe_ingredient.amount',
     'ingredient.name')
-    
+}
+
+function addRecipe (obj, db = database) {
+    return db("recipe")
+    .insert(
+        obj
+        )
+}
+
+function getIngredientList (db = database) {
+    return db("ingredient")
+    .select()
 }
 
 module.exports = {
     getRecipes: getRecipes,
     getIngredientList: getIngredientList,
-    getRecipeById: getRecipeById
+    getRecipeById: getRecipeById,
+    addRecipe: addRecipe
 }

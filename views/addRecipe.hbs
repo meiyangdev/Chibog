@@ -1,0 +1,39 @@
+<div>
+<h3 class='title' style='color: blue;'>Add a new Recipe!</h3>
+
+<div class='form' style="background-color: #f2f2f2;">
+  <form action="/addrecipe" method="post">
+    <label for="rname">Recipe Name:</label>
+    <input type="text" id="rname" name="name" placeholder="Enter details...">
+    <p></p>
+    <label for="category">Category Name:</label>
+    <input type="text" id="category" name="category">
+    <p></p>
+    <label for="type">Type of meal:</label>
+    <input type="text" id="type" name="type">
+    <p></p>
+    <label for="instructions">Instructions:</label>
+    <input type="text" id="instructions" name="instructions">
+    <p></p>
+    <label for="youtubelink">Youtube link:</label>
+    <input type="text" id="instructions" name="youtubelink" >
+    <p></p>
+    <label for="about">About:</label>
+    <input type="text" id="about" name="about" >
+    <p></p>
+    
+
+
+    <label for="image_food">Select image:</label>
+    <select id="image_food" name="image_food">
+      <option value="/images/food_1.jpg">Main meal - 1</option>
+      <option value="/images/food_2.jpg">Dessert</option>
+      <option value="/images/food_3.jpg">Main meal - 2</option>
+      <option value="/images/food_4.jpg">Delicacy</option>
+    </select>
+    <p></p>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</div>
