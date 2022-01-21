@@ -126,6 +126,14 @@ section::after {
 	opacity: 1;
 }
 
+
+.recipeImg {
+	height: 200px;
+	visibility: visible; 
+	opacity: 1;
+}
+
+
 .container .card .sci li a {
 	color: #fff;
 	font-size: 20px;
