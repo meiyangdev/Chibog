@@ -129,3 +129,10 @@ section::after {
 	color: #fff;
 	font-size: 20px;
 }
+
+.title {
+	font-family: 'Dancing Script', cursive;
+	font-size: 80px;
+	margin-bottom: 30px;
+	color: white
+}
