@@ -28,11 +28,11 @@ function addRecipe (obj, db = database) {
         )
 }
 
-function getIngredientList (db = database) {
-    return db("ingredient")
-    .select()
+// function getIngredientList (db = database) {
+//     return db("ingredient")
+//     .select()
 
-}
+// }
 
 module.exports = {
     getRecipes: getRecipes,
