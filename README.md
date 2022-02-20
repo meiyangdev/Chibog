@@ -1,5 +1,5 @@
 # Chibog
-Top Authentic Filipino Recipes
+Top Authentic Filipino Recipes- use database, sql to grab info for client-side
 
 Database Diagram
 
